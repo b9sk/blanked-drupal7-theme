@@ -1,0 +1,21 @@
+name = Blanked
+description = Тема для этого сайта
+package = Core
+version = VERSION
+core = 7.x
+
+; Убрать стили, которые лезут из модулей ядра
+stylesheets[all][] = system.base.css
+stylesheets[all][] = system.menus.css
+stylesheets[all][] = system.messages.css
+stylesheets[all][] = system.theme.css
+stylesheets[all][] = comment.css
+stylesheets[all][] = field.css
+stylesheets[all][] = node.css
+stylesheets[all][] = search.css
+stylesheets[all][] = user.css
+stylesheets[all][] = views.css
+stylesheets[all][] = ctools.css
+
+; Добавить свой style (желательно заменить на sass/gulp)
+stylesheets[all][] = style.css
